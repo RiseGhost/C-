@@ -1,5 +1,38 @@
 # C++
 
+# C++ The Void 🕳️ Power:
+
+## Introdução:
+
+Tanto em C como em C++ existe o tipo de dados void, que representa o vazio (a ausência de dados). Normalmente utilizando como tipo de retorno de funções. No entanto o tipo void pode ser utilizado de outras maneiras bastantes peculiares. Devido a sua natureza não nos é possível declarar uma variável do tipo void, no entanto é sim possível declarar uma variável para um apontador para void. 
+
+Uma variável de tipo apontador para void, **vai ser uma variável sem tipo definido**, mas que ao mesmo tempo possa existir.
+
+## Exemplo de implementação:
+
+No exemplo de código a baixo a variável P pode assumir 3 tipo diferentes, int, float e const char* (string).
+
+Código:
+
+```cpp
+int main(void){
+  void* P;
+  double g = -987.001;
+  const char* str = "Hello";
+  P = (int*) 8; // P -> 8
+  printf("%i\n", P);
+  P = &g; // P -> -987.001
+  printf("%f\n", *(double*) P);
+  P = &str; // P -> "Hello"
+  printf("%s\n", *(const char**) P);
+
+  return 0;
+}
+```
+
+Output:
+
+
 
 # C++ How to acess a private atributes in class 🔐
 
