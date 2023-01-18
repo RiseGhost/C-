@@ -1,4 +1,4 @@
-# C-
+# C++
 
 
 # C++ How to acess a private atributes in class
