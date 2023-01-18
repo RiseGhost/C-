@@ -32,6 +32,7 @@ int main(void){
 
 Output:
 
+![](https://user-images.githubusercontent.com/91985039/213292512-1cf8843f-54fe-4ff5-b018-b6754cc47c1b.svg)
 
 
 # C++ How to acess a private atributes in class 🔐
