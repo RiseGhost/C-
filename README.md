@@ -1,7 +1,7 @@
 # C++
 
 
-# C++ How to acess a private atributes in class
+# C++ How to acess a private atributes in class 🔐
 
 ## Introdução:
 
@@ -9,9 +9,9 @@ Uma classe em C++ pode ter atributos (variáveis) **public** ou **private**. Sen
 
 A “única maneira correta” de ter acesso a esses atributos é utilizando métodos gets e sets. No entanto neste capitulo irei mostra uma maneira alternativa de conseguir manipular os atributos **private** de uma classe.
 
-## Desenvolvimento:
+## Implementação:
 
-Comecei por definir uma class Pessoa com os seguintes atributos private:
+Comecei por definir uma class Pessoa 🧍🏻 com os seguintes atributos private:
 
 - int ID;
 - int Peso;
