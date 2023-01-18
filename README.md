@@ -99,5 +99,6 @@ int main(void){
 ```
 
 Output:
+
 ![](https://user-images.githubusercontent.com/91985039/213273514-d16e2af9-8177-4a51-b54f-f5b4165e7c11.svg)
 
